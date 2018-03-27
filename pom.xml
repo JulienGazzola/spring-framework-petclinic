@@ -485,7 +485,7 @@
 
         <distributionManagement>
             <snapshotRepository>
-                <id>central</id>
+                <id>nexus-snapshot</id>
                 <url>http://localhost:8081/repository/maven-snapshot/</url>
             </snapshotRepository>
         </distributionManagement>
