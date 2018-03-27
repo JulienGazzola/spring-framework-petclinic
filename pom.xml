@@ -9,13 +9,6 @@
     <name>petclinic</name>
     <packaging>war</packaging>
 
-        <distributionManagement>
-            <snapshotRepository>
-                <id>central</id>
-                <url>http://localhost:8081/</url>
-            </snapshotRepository>
-        </distributionManagement>
-
     <properties>
 
         <!-- Generic properties -->
@@ -489,6 +482,13 @@
             <url>http://repo.spring.io/milestone</url>
         </repository>
     </repositories>
+
+        <distributionManagement>
+            <snapshotRepository>
+                <id>central</id>
+                <url>http://localhost:8081/</url>
+            </snapshotRepository>
+        </distributionManagement>
 
     <url>demopetclinic</url>
 </project>
