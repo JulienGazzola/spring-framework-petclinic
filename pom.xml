@@ -12,7 +12,7 @@
         <distributionManagement>
             <snapshotRepository>
                 <id>central</id>
-                <url>http://localhost:8081/repository/maven-public/</url>
+                <url>http://localhost:8081/</url>
             </snapshotRepository>
         </distributionManagement>
 
